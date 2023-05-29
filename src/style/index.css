@@ -1,0 +1,38 @@
+:root{
+    --color-cream: #F8EDE3;
+    --color-cream-darker: #DFD3C3;
+    --color-brown: #D0B8A8;
+    --color-purple: #7D6E83;
+    --color-purple-more-purple: #734187;
+    --box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    --box-shadow-secondery: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kenilla', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+
+html::-webkit-scrollbar {
+    /* display: none; */
+  }
+
+html{
+    overscroll-behavior: none;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    background-color: var(--color-cream);
+    /* background-color: black; */
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}

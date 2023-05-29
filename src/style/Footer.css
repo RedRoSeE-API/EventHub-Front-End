@@ -1,0 +1,8 @@
+.main-Footer-div{
+    background-color: var(--color-brown);
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

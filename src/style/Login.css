@@ -1,0 +1,191 @@
+@media only screen and (max-width: 600px) {
+
+    .main-Login-div{
+        height: 50em;
+        background-color: #f8ede3;
+        background-image: linear-gradient(62deg, #f8ede3 13%, #d0b8a8 19%, #f8ede3 28%, #f8ede3 54%, #d0b8a8 63%, #f8ede3 72%);
+        position: relative;
+    }
+
+    .content-div{
+        height: 25em;
+        width: 17em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--color-cream-darker);
+        /* border: solid black; */
+        border-radius: 1rem;
+        padding: 2em;
+        box-shadow: var(--box-shadow);
+        
+    }
+
+    .login-h1{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .secondary-div-no-title{
+        display: flex;
+        flex-direction: column;
+        height: 21em;
+        justify-content: center;
+        border-top: 2px dashed black;
+        /* border-bottom: solid black; */
+        /* border-radius: .5rem; */
+    }
+
+    .email-div{
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: .4em 0;
+    }
+
+    .password-div{
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: .4em 0;
+    }
+
+    .save-user-div{
+        height: 3em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: .4em 0;
+    }
+
+    .login-page-input{
+        height: 15px;
+        width: 11em;
+        font-size: 1em;
+        padding: 2px;
+        border-radius: .5rem;
+    }
+
+    .label-checkbox-login-page{
+        width: calc(100% - 180px);
+    }
+
+    .checkbox-login-page{
+        height: 20px;
+        width: 20px;
+    }
+
+    .button-div-login-page{
+        text-align: center;
+        margin: 3em 0 0;
+    }
+
+    .button-login-page{
+        height: 3em;
+        width: 10em;
+        border-radius: .5rem;
+        background-color: var(--color-purple);
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+    .main-Login-div{
+        height: 50em;
+        background-color: #f8ede3;
+        background-image: linear-gradient(62deg, #f8ede3 13%, #d0b8a8 19%, #f8ede3 28%, #f8ede3 54%, #d0b8a8 63%, #f8ede3 72%);
+        position: relative;
+    }
+
+    .content-div{
+        height: 25em;
+        width: 25em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--color-cream-darker);
+        /* border: solid black; */
+        border-radius: 1rem;
+        padding: 2em;
+        box-shadow: var(--box-shadow);
+        
+    }
+
+    .login-h1{
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 30px;
+        /* letter-spacing: 10px; */
+    }
+
+    .secondary-div-no-title{
+        display: flex;
+        flex-direction: column;
+        height: 21em;
+        justify-content: center;
+        border-top: 2px dashed black;
+        /* border-bottom: solid black; */
+        /* border-radius: .5rem; */
+    }
+
+    .email-div{
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: .4em 0;
+    }
+
+    .password-div{
+        height: 3em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: .4em 0;
+    }
+
+    .save-user-div{
+        height: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: .4em 0;
+    }
+
+    .login-page-input{
+        height: 20px;
+        width: 18em;
+        font-size: 1em;
+        padding: 2px;
+        border-radius: .5rem;
+    }
+
+    .label-checkbox-login-page{
+        width: calc(100% - 292px);
+    }
+
+    .checkbox-login-page{
+        height: 20px;
+        width: 20px;
+    }
+
+    .button-div-login-page{
+        text-align: center;
+        margin: 3em 0;
+    }
+
+    .button-login-page{
+        font-size: 15px;
+        height: 4em;
+        width: 15em;
+        border-radius: .5rem;
+        background-color: var(--color-purple);
+        letter-spacing: 10px;
+    }
+
+}
